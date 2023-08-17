@@ -1,0 +1,29 @@
+mk dir Checkpoint-JenniferParra
+git init
+git remote add origin https://github.com/JenniferParraJimenez/Checkpoint-JenniferParra.git
+git pull origin main
+touch main.js index.html
+git add .
+git status
+git commit -m "commit 01 de JenniferParra"
+git push origin main
+git branch feature
+git checkout feacture
+mkdir Hardware Software SeguridadInformatica
+cd Hardware
+touch resumen.txt
+cd Software
+touch resumen.txt
+cd SeguridadInformatica
+touch resumen.txt
+git add .
+git status
+git commit -m "comandos.txt"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+touch comandos.txt
+git add .
+git commit -m "commit 03 de JenniferParra"
+git push origin main

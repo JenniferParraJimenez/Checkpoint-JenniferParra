@@ -1,0 +1,5 @@
+- Visual Studio Code
+- Git Hub
+- R Studio
+- GIS
+- EpiDat
